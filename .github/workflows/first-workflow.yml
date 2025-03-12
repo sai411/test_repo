@@ -6,3 +6,5 @@ jobs:
      steps:
         - name: greeting
           run: echo "hello-world"
+        - name: Print contents
+          run: cat 1.txt
